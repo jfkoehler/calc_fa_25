@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -246,7 +246,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+      <li><a href="https://github.com/jfkoehler/calc_fa_25" target="_blank"
    class="btn btn-sm btn-source-repository-button dropdown-item"
    title="Source repository"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -263,7 +263,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F07_hw2.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/jfkoehler/calc_fa_25/issues/new?title=Issue%20on%20page%20%2F07_hw2.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -444,12 +444,12 @@ allowfullscreen></iframe>
 <ol class="arabic simple" start="4">
 <li><p>Below is the data from our Central Park weather station.  We have isolated the Precipiation column, and plotted both it and the total precipitation for the month of January in the year 2020.  How could we make the second plot using the first? (<strong>HINT</strong>: Look up what the <code class="docutils literal notranslate"><span class="pre">.cumsum()</span></code> method does in Pandas, or just think about what we’re doing in class!)</p></li>
 </ol>
-<table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>DATE</th>      <th>PRCP</th>    </tr>  </thead>  <tbody>    <tr>      <th>0</th>      <td>1870-01-01</td>      <td>0.08</td>    </tr>    <tr>      <th>1</th>      <td>1870-01-02</td>      <td>1.18</td>    </tr>    <tr>      <th>2</th>      <td>1870-01-03</td>      <td>0.00</td>    </tr>    <tr>      <th>3</th>      <td>1870-01-04</td>      <td>0.00</td>    </tr>    <tr>      <th>4</th>      <td>1870-01-05</td>      <td>0.00</td>    </tr>  </tbody></table><center><img src = 'images/a3p3.png'  /> </center><ol class="arabic simple" start="5">
+<table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>DATE</th>      <th>PRCP</th>    </tr>  </thead>  <tbody>    <tr>      <th>0</th>      <td>1870-01-01</td>      <td>0.08</td>    </tr>    <tr>      <th>1</th>      <td>1870-01-02</td>      <td>1.18</td>    </tr>    <tr>      <th>2</th>      <td>1870-01-03</td>      <td>0.00</td>    </tr>    <tr>      <th>3</th>      <td>1870-01-04</td>      <td>0.00</td>    </tr>    <tr>      <th>4</th>      <td>1870-01-05</td>      <td>0.00</td>    </tr>  </tbody></table><p><img alt="" src="_images/a3p3.png" /></p>
+<ol class="arabic simple" start="5">
 <li><p>Below is a plot of the average weekly earnings by americans according to the Bureau of Labor Statistics.  How can you use this plot to determine the average wage from 2009 to 2019 measured each quarter.  How can you use this graph to determine the average weekly earning over the 10 year period?</p></li>
 </ol>
-<center>
-    <img src = 'images/a3p4.png' >
-    </center><ol class="arabic simple" start="6">
+<p><img alt="" src="_images/a3p4.png" /></p>
+<ol class="arabic simple" start="6">
 <li><p>Useful summations:</p></li>
 </ol>
 <ul class="simple">
@@ -472,8 +472,7 @@ allowfullscreen></iframe>
 </ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 </pre></div>
@@ -502,10 +501,10 @@ allowfullscreen></iframe>
 <ol class="arabic simple" start="9">
 <li><p>How could we use our ideas around area to think about computing the volume of the shape shown below?  Describe a procedure for doing so.</p></li>
 </ol>
-<center><img src = 'images/a3p9.png'  /></center><div class="cell docutils container">
+<p><img alt="" src="_images/a3p9.png" /></p>
+<div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># %matplotlib inline</span>
-<span class="c1"># import pandas as pd</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># import pandas as pd</span>
 <span class="c1"># df = pd.read_csv(&#39;data/2017018.csv&#39;)</span>
 <span class="c1"># df[&#39;DATE&#39;] = pd.to_datetime(df[&#39;DATE&#39;])</span>
 
