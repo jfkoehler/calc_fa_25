@@ -5,3 +5,6 @@ format: jb-book
 root: syllabus
 chapters:
 - file: area
+- file: 06_riemann_accumulation
+- file: 07_hw2
+- file: 08_more_with_integrals

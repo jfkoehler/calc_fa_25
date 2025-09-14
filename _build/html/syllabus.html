@@ -1,0 +1,774 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>The New School &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'syllabus';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Area and Euclid" href="area.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="#">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    The New School
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="area.html">Area and Euclid</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06_riemann_accumulation.html">Riemann Review</a></li>
+
+
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="07_hw2.html">Homework 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08_more_with_integrals.html">More with the Definite Integral</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fsyllabus.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/syllabus.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>The New School</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">The New School</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eugene-lang-college-mathematics-and-natural-sciences">Eugene Lang College | Mathematics and Natural Sciences</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-outcomes">Learning Outcomes</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#assessable-assignments-and-final-grade-calculation">Assessable Assignments and Final Grade Calculation</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#final-grade-calculation">Final Grade Calculation</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#part-2-course-outline">Part 2: Course Outline</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendance">Attendance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-readings-materials-and-technology-requirements">Course Readings, Materials, and Technology Requirements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#disability-services">Disability Services</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#university-policies">University Policies</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="the-new-school">
+<h1>The New School<a class="headerlink" href="#the-new-school" title="Link to this heading">#</a></h1>
+<section id="eugene-lang-college-mathematics-and-natural-sciences">
+<h2>Eugene Lang College | Mathematics and Natural Sciences<a class="headerlink" href="#eugene-lang-college-mathematics-and-natural-sciences" title="Link to this heading">#</a></h2>
+<p><strong>LMTH 2040</strong></p>
+<p><strong>Calculus: A Multidisciplinary Approach</strong></p>
+<p>CRN 11022</p>
+<p>Monday and Wednesday, 12:00 PM - 1:40 PM W11th St Room 464</p>
+<ul class="simple">
+<li><p><strong>Instructor</strong>: Jacob Frias Koehler</p></li>
+<li><p><strong>Office Hours</strong>: Wednesdays 2PM - 3PM</p></li>
+<li><p><strong>Email</strong>: <a class="reference external" href="mailto:koehlerj&#37;&#52;&#48;newschool&#46;edu">koehlerj<span>&#64;</span>newschool<span>&#46;</span>edu</a></p></li>
+</ul>
+<hr class="docutils" />
+<p>This course approaches topics in calculus through a multidisciplinary lens. It is intended for students who are new to calculus and/or are interested in a contextual application-based approach to calculus. Topics may include summations and quadrature, integration and differentiation related through the Fundamental Theorem of Calculus, optimization, and basic differential equations that model natural phenomena. The course will apply a variety of approaches to explore the topics, possibly including historical and creative lenses. Students will gain skills in communicating technical and scientific information, individually and in groups, by explaining mathematical ideas in oral, written, and visual form. The course will utilize technology and mathematical software to compute and explore mathematics. This course is offered every semester and fulfills the second mathematics requirement for the Interdisciplinary Science major. This course does not fulfill the mathematics requirement for the Economics major.</p>
+<hr class="docutils" />
+<p>Prerequisites: No Prerequisites</p>
+<p>Co-Requisites: No Co-requisites</p>
+</section>
+</section>
+<section id="learning-outcomes">
+<h1>Learning Outcomes<a class="headerlink" href="#learning-outcomes" title="Link to this heading">#</a></h1>
+<ul class="simple">
+<li><p>Use functions to model real world data</p></li>
+<li><p>Use integration to find the area under a curve</p></li>
+<li><p>Apply the definite and indefinite integral to data to understand probability</p></li>
+<li><p>Use summations to understand data through measures of center and spread</p></li>
+<li><p>Use summations and definite integrals to explore inequality, regression, and classification - problems</p></li>
+<li><p>Use finite differences to explore rate of change of discrete data</p></li>
+<li><p>Use derivatives to understand change in continuous data</p></li>
+<li><p>Use derivatives to build regression models</p></li>
+<li><p>Approximate solutions to differential equations</p></li>
+<li><p>Use gradient descent to maximize or minimize functions</p></li>
+<li><p>Apply gradient descent to regression and classification problems</p></li>
+<li><p>Solve constrained optimization problems</p></li>
+<li><p>Use constrained optimization to model data and develop conceptual economic models</p></li>
+</ul>
+</section>
+<section id="assessable-assignments-and-final-grade-calculation">
+<h1>Assessable Assignments and Final Grade Calculation<a class="headerlink" href="#assessable-assignments-and-final-grade-calculation" title="Link to this heading">#</a></h1>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Due Date</p></th>
+<th class="head"><p>Assignment Name</p></th>
+<th class="head"><p>Points</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>2025-09-08</p></td>
+<td><p>Area and Euclid</p></td>
+<td><p>10 HW</p></td>
+</tr>
+<tr class="row-odd"><td><p>2025-09-15</p></td>
+<td><p>Area and Archimedes</p></td>
+<td><p>10 HW</p></td>
+</tr>
+<tr class="row-even"><td><p>2025-09-22</p></td>
+<td><p>Functions and Reimann Approximation</p></td>
+<td><p>10 HW</p></td>
+</tr>
+<tr class="row-odd"><td><p>2025-09-29</p></td>
+<td><p>The Definite Integral and Area</p></td>
+<td><p>10 HW</p></td>
+</tr>
+<tr class="row-even"><td><p>2025-10-06</p></td>
+<td><p>Review Problems</p></td>
+<td><p>10 Assessment</p></td>
+</tr>
+<tr class="row-odd"><td><p>2025-10-13</p></td>
+<td><p>Slope and Derivatives</p></td>
+<td><p>10 HW</p></td>
+</tr>
+<tr class="row-even"><td><p>2025-10-20</p></td>
+<td><p>Optimization</p></td>
+<td><p>10 HW</p></td>
+</tr>
+<tr class="row-odd"><td><p>2025-10-27</p></td>
+<td><p>Probability and Statistics</p></td>
+<td><p>10 HW</p></td>
+</tr>
+<tr class="row-even"><td><p>2025-11-03</p></td>
+<td><p>Economics Midterm</p></td>
+<td><p>100 Project</p></td>
+</tr>
+<tr class="row-odd"><td><p>2025-11-10</p></td>
+<td><p>Physics &amp; Review</p></td>
+<td><p>10 Assessment</p></td>
+</tr>
+<tr class="row-even"><td><p>2025-11-17</p></td>
+<td><p>AI</p></td>
+<td><p>10 HW</p></td>
+</tr>
+<tr class="row-odd"><td><p>2025-11-24</p></td>
+<td><p>Slope Field’s and Euler</p></td>
+<td><p>10 HW</p></td>
+</tr>
+<tr class="row-even"><td><p>2025-12-01</p></td>
+<td><p>Population Models</p></td>
+<td><p>10 HW</p></td>
+</tr>
+<tr class="row-odd"><td><p>2025 12-08</p></td>
+<td><p>Final Project Research</p></td>
+<td><p>10 Assessment</p></td>
+</tr>
+<tr class="row-even"><td><p>2025 12-15</p></td>
+<td><p>Final Presentation and Paper</p></td>
+<td><p>100 Project</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="final-grade-calculation">
+<h1>Final Grade Calculation<a class="headerlink" href="#final-grade-calculation" title="Link to this heading">#</a></h1>
+<ul class="simple">
+<li><p>Weekly Assignments: 40%</p></li>
+<li><p>Projects: 20%</p></li>
+<li><p>Quizzes: 20%</p></li>
+<li><p>Attendance and participation: 20%</p></li>
+</ul>
+</section>
+<section id="part-2-course-outline">
+<h1>Part 2: Course Outline<a class="headerlink" href="#part-2-course-outline" title="Link to this heading">#</a></h1>
+<ul class="simple">
+<li><p><strong>Week 1</strong>: Foundational Problems</p>
+<ul>
+<li><p>Square roots, Area under parabolas, Binomial Probability</p></li>
+</ul>
+</li>
+<li><p><strong>Week 2</strong>: Summations</p>
+<ul>
+<li><p>Sums of Integer Sequences and Proof</p></li>
+</ul>
+</li>
+<li><p><strong>Week 3</strong>: Functions and Area</p>
+<ul>
+<li><p>Polynomial, Trigonometric, and Exponential Functions, Riemann Approximations</p></li>
+</ul>
+</li>
+<li><p><strong>Week 4</strong>: The Definite Integral</p>
+<ul>
+<li><p>Definition of Definite Integral, application to area and volume</p></li>
+</ul>
+</li>
+<li><p><strong>Week 5</strong>: Slope and Linearization</p>
+<ul>
+<li><p>Slope and Linear Functions, Linearizing Polynomial and Trigonometric Functions</p></li>
+</ul>
+</li>
+<li><p><strong>Week 6</strong>: Optimization</p>
+<ul>
+<li><p>Shapes of Curves, Maximum and Minimum problems, second derivative test</p></li>
+</ul>
+</li>
+<li><p><strong>Week 7</strong>: Probability and Statistics</p>
+<ul>
+<li><p>Binomial and Normal Probability Distributions, Applications to maximum likelihood estimation and probability density and cumulative density functions, Linear and Logistic Regression</p></li>
+</ul>
+</li>
+<li><p><strong>Week 8</strong>: Economics</p>
+<ul>
+<li><p>Marginals and Game Theory, Apply derivatives to marginal analysis and use optimization to solve Nash equlibrium problems</p></li>
+</ul>
+</li>
+<li><p><strong>Week 9</strong>: Physics</p>
+<ul>
+<li><p>Motion, Work, and Force</p></li>
+</ul>
+</li>
+<li><p><strong>Week 10</strong>: Artificial Intelligence</p>
+<ul>
+<li><p>Regression and Classification Revisited, Automatic Differentiation</p></li>
+</ul>
+</li>
+<li><p><strong>Week 11</strong>: Ordinary Differential Equations</p>
+<ul>
+<li><p>Slope fields and qualitative analysis, analytic and numerical solutions</p></li>
+</ul>
+</li>
+<li><p><strong>Week 12</strong>: Population Models</p>
+<ul>
+<li><p>Linear, Exponential, and Logistic Growth Models, Systems of Differential Equations and the Lotka Volterra model</p></li>
+</ul>
+</li>
+<li><p><strong>Week 13</strong>: Partial Differential Equations</p>
+<ul>
+<li><p>The Heat and Wave Equations, Numerical solutions</p></li>
+</ul>
+</li>
+<li><p><strong>Week 14</strong>: Final Projects</p>
+<ul>
+<li><p>Final Project Proposals</p></li>
+</ul>
+</li>
+<li><p><strong>Week 15</strong>: Final Presentations</p>
+<ul>
+<li><p>Final Project Presentations</p></li>
+</ul>
+</li>
+</ul>
+<section id="attendance">
+<h2>Attendance<a class="headerlink" href="#attendance" title="Link to this heading">#</a></h2>
+<p>You are expected to attend all sessions and participate actively in the group problem solving activities. Missing more than 3 classes will result in a letter grade for each additional absence. You are expected to be on time to class, and if you are later than attendance is taken you will be marked absent.</p>
+</section>
+<section id="course-readings-materials-and-technology-requirements">
+<h2>Course Readings, Materials, and Technology Requirements<a class="headerlink" href="#course-readings-materials-and-technology-requirements" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Readings</strong>: We will not use a single text for this class outside of my own notes that follow. From time to time I may post additional readings in canvas, and suggest additional resources in my notes for each particular section.</p></li>
+<li><p><strong>Materials</strong>: Materials will be shared as Jupyter notebooks. These are freely available to install and use locally through Anaconda and available through your google drive as Google Colab Notebooks. All materials will be made available through both downloadable files in my github repository as well as linked as Google Colab notebooks.</p></li>
+<li><p><strong>Technology Requirements</strong>: You need a working computer that has consistent internet access and reasonable memory for using materials locally or through web access.</p></li>
+</ul>
+</section>
+<section id="disability-services">
+<h2>Disability Services<a class="headerlink" href="#disability-services" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Student Disability Services</strong>: (<a class="reference external" href="http://www.newschool.edu/student-disability-services/">http://www.newschool.edu/student-disability-services/</a>).
+If you are a student with a disability/disabled student, or believe you might have a disability that requires accommodations, please contact the Student Disability Services (SDS) at <a class="reference external" href="mailto:studentdisability&#37;&#52;&#48;newschool&#46;edu">studentdisability<span>&#64;</span>newschool<span>&#46;</span>edu</a>, or 212-229-5626, to coordinate all reasonable accommodation requests.</p></li>
+</ul>
+</section>
+<section id="university-policies">
+<h2>University Policies<a class="headerlink" href="#university-policies" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Academic Integrity Policy found at:
+<a class="reference external" href="http://www.newschool.edu/policies">http://www.newschool.edu/policies</a></p></li>
+<li><p>The Intellectual Property Rights Policy, found at: <a class="reference external" href="http://www.newschool.edu/provost/accreditation-policies/">http://www.newschool.edu/provost/accreditation-policies/</a></p></li>
+<li><p>For further information on plagiarism, students can be directed to the Learning Center’s website: <a class="reference external" href="http://www.newschool.edu/learning-center">http://www.newschool.edu/learning-center</a></p></li>
+<li><p>Grading policies as found in the academic catalogs or online at <a class="reference external" href="https://www.newschool.edu/registrar/grade-policies/">https://www.newschool.edu/registrar/grade-policies/</a></p></li>
+</ul>
+</section>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="right-next"
+       href="area.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Area and Euclid</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">The New School</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eugene-lang-college-mathematics-and-natural-sciences">Eugene Lang College | Mathematics and Natural Sciences</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-outcomes">Learning Outcomes</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#assessable-assignments-and-final-grade-calculation">Assessable Assignments and Final Grade Calculation</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#final-grade-calculation">Final Grade Calculation</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#part-2-course-outline">Part 2: Course Outline</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendance">Attendance</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-readings-materials-and-technology-requirements">Course Readings, Materials, and Technology Requirements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#disability-services">Disability Services</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#university-policies">University Policies</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
